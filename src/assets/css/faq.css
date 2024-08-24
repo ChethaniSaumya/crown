@@ -1,0 +1,127 @@
+/* Section 1 */
+.faqs #section1 {
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+  width: 100%;
+}
+
+.faqs #s1vid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  min-height: 70vh;
+  clip-path: inset(1px 1px);
+}
+
+.faqs .s1inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-image: linear-gradient(transparent, #1f2028);
+}
+
+.faqs .s1inner div h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.faqs .s1h1small {
+  font-size: 3rem !important;
+}
+
+@media (max-width: 960px) {
+  .faqs .s1inner div h1 {
+    font-size: 3rem;
+  }
+
+  .faqs .s1h1small {
+    font-size: 1.8rem !important;
+  }
+  .faqs #s1vid {
+    transform: translate(-70%, -50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .faqs .s1inner div {
+    text-align: center;
+  }
+  .faqs #section1 {
+    height: 70vh;
+  }
+  .faqs #s1inner {
+    height: 70vh;
+  }
+  .faqs #s1vid {
+    transform: translate(-70%, -50%);
+    height: 70vh;
+  }
+}
+
+@media (max-width: 745px) {
+  .faqs .s1inner div h1 {
+    font-size: 2.5rem;
+  }
+
+  .faqs .s1h1small {
+    font-size: 1.7rem !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .faqs .s1inner div h1 {
+    font-size: 2rem;
+  }
+
+  .faqs .s1h1small {
+    font-size: 1.65rem !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .faqs .s1inner div h1 {
+    font-size: 1.8rem;
+  }
+
+  .faqs .s1h1small {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .faqs .s1inner div h1 {
+    font-size: 1.4rem;
+  }
+
+  .faqs .s1h1small {
+    font-size: 1.1rem !important;
+  }
+}
+/* Section 1 */
+
+/* Section 2 */
+.faqs #section2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.faqs .question {
+  cursor: pointer;
+}
+
+.faqs .questionarrow i {
+  transition: all;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+}
+/* Section 2 */

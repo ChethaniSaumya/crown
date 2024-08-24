@@ -1,0 +1,17 @@
+/* Section 1 */
+.minting #section1 {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.minting .nftimg {
+  width: 200px;
+}
+
+.minting .col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Section 1 */

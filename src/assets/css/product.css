@@ -1,0 +1,17 @@
+/* Section 1 */
+.product #section1 {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.product .carimg {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  margin: auto;
+}
+.product .carousel-item span{
+  width: 100%;
+}
+/* Section 1 */

@@ -1,0 +1,55 @@
+/* Section 1 */
+.profile #section1 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+
+.profile table {
+  margin: auto;
+}
+
+.profile td {
+  width: 150px;
+}
+
+.profile .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.profile .button {
+  width: 150px;
+}
+
+.profile .buttonlink {
+  font-size: 0.75rem;
+}
+
+.profile .prodimg {
+  max-height: 150px;
+}
+
+.profile .order {
+  background-color: rgba(78, 78, 78, 0.25);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  backdrop-filter: blur(10px);
+}
+
+.profile .product {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.profile .form {
+  background-color: transparent !important;
+}
+/* Section 1 */

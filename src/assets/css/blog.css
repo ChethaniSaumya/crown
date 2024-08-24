@@ -1,0 +1,18 @@
+/* Section 1 */
+.blog #section1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blog #section1 img {
+  width: 100%;
+}
+/* Section 1 */
+
+/* Section 2 */
+.blog #section2 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: white;
+}
+/* Section 2 */
